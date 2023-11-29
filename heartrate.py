@@ -21,7 +21,7 @@ def fetch_heart_rate():
 st.title("Heart Rate App")
 
 # Load and play the sound
-sound_file = r'C:\Users\Administrator\Downloads\mixkit-repeating-arcade-beep-1084.wav'  # Update this with your sound file path
+sound_file = r'https://github.com/iamsandeeprSand/heartrate/blob/main/mixkit-repeating-arcade-beep-1084.wav'  # Update this with your sound file path
 
 if st.button("Evaluate Heart Rate"):
     for i in range(100):  # Consider changing this loop for a more responsive user experience
